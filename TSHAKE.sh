@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-token="التوكن هنا"
+token="410092068:AAGx_QjSuh4vuKPG8TKhTMm7_q13C4UwNSs"
 function print_logo() {
 	echo -e "\e[38;5;77m"   
 echo -e "       CH > @TshAkETEAM            "
@@ -59,6 +59,3 @@ echo -e "        \e[38;5;40m"
 
 curl "https://api.telegram.org/bot"$token"/sendmessage" -F
 ./tg -s ./TSHAKE.lua $@ --bot=$token
-
-
-
